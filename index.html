@@ -1,28 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name"viewport" content"width=device-width, initial-scale=1">
     <title>Mino's website</title>
   </head>
   <style>
-    #grad1 {
-      background-color: lightgrey;
-      background: linear-gradient(to bottom, lightgrey, grey);
-    }
-
     .header a {
-      float: left;
       color: black;
-      text-align: center;
-      padding: 12px;
+      padding: 36px;
       text-decoration: none;
-      font-size: 18px;
-      line-height: 25px;
       border-radius: 8px;
     }
-    .header a.name {
-      font-size: 60px;
+
+    .header a.resume {
+      font-size: 70px;
       font-weight: bold;
+    }
+
+    .header a.github {
+      font-size: 70px;
+      font-weight: bold;
+      float: left;
+    }
+
+    .header a.projects {
+      font-size: 70px;
+      font-weight: bold;
+      float: right;
     }
 
     .header a:hover {
@@ -35,32 +39,57 @@
       color: black;
     }
 
-    .header-right {
-      float: right;
-    }
-
     @media screen and (max-width: 500px) {
       .header a{
         float: none;
         display: block;
         text-align: left;
       }
-      .header-right {
-        float: none;
-      }
     }
   </style>
-  <body id="grad1">
+  <body style="background: lightgrey">
   <p>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <center>
-      <h1 class="name">
-        Mino
-      </h1>
+    <h1 class="header">
+      <center>
+        <p style="font-size:150px; margin:-30px">
+          Mino
+          <p style="font-size:30px; margin: 0px">
+            Chase Yamaguchi
+          </p>
+        </p>
+      </center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://www.github.com/NoHaxJustMino" target="_blank" class="github">
+                  Github
+                </a>
+              </td>
+              <td>
+                <a href="https://nohaxjustmino.github.io/resources/resume.html" target="_blank" class="resume">
+                  Resume
+                </a>
+              </td>
+              <td>
+                <a href="https://nohaxjustmino.github.io/resources/projects.html" target="_blank" class="projects">
+                  Projects
+                </a>
+              </td>
+            </tr>
+          </table>
+        </center>
+    </h1>
   </p>
   </body>
 </html>
