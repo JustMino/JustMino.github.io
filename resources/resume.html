@@ -7,6 +7,7 @@
       .header {
         overflow: hidden;
         padding: 20px 10px;
+        margin: 0px;
       }
 
       .header a {
@@ -30,31 +31,23 @@
         color: black;
       }
 
-        .header a.active {
-          background-color: dodgerblue;
-          color: white;
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
         }
 
         .header-right {
-          float: right;
+          float: none;
         }
-
-        @media screen and (max-width: 500px) {
-          .header a {
-            float: none;
-            display: block;
-            text-align: left;
-          }
-
-          .header-right {
-            float: none;
-          }
-        }
+      }
       p.one {
         border-style: outset;
         border-width: thick;
         border-color: #4dd9e3;
         padding: 1em;
+        margin: auto;
       }
       #grad1 {
         background-color: lightgrey;
@@ -63,7 +56,6 @@
     </style>
   </head>
   <body id="grad1">
-    <br>
     <center>
       <h1 class="header">
         <u>
@@ -81,8 +73,8 @@
         </a>
       </p>
     </center>
-    <p style="font-size:14px;color:blue">Educational Goals</p>
-    <ul style="font-size:12px;">
+    <p style="font-size:14px;color:blue;">Educational Goals</p>
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         Enter a university program that will allow me to focus and learn in particular, game programming, C++, C#, and game logic programming.
       </li>
@@ -94,7 +86,7 @@
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Professional Goals</p>
-    <ul style="font-size:12px;">
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         Become a professional programmer especially in the fields of game development and Machine Learning.
       </li>
@@ -103,7 +95,7 @@
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Academics</p>
-    <ul style="font-size:12px;">
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         Kyoto International University Academy. Kyoto, Japan (2015-2021)
         <ul>
@@ -120,13 +112,13 @@
             Best in Department in Computer (2018)
           </li>
           <li>
-            Career GPA 3.779, based on current grade 4.287 in Summer semester 2020
+            Career GPA 3.779 out of 4.0, based on current grade 4.287 in Summer semester 2020
           </li>
         </ul>
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Curricular Activities</p>
-    <ul style="font-size:12px;">
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         Teacher Assistant, Computer Science. KIU Academy. Kyoto, Japan (04/2018 - 03/2021)
       </li>
@@ -139,7 +131,7 @@
         </li>
       </ul>
       <li>
-        Teacher Assistant, Math. KIU Academy. Kyoto, Kyoto (04/2018 - 03/2021)
+        Teacher Assistant, Math. KIU Academy. Kyoto, Japan (04/2018 - 03/2021)
       </li>
       <ul>
         <li>
@@ -168,7 +160,7 @@
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Accomplishments</p>
-    <ul style="font-size:12;">
+    <ul style="font-size:12; margin-top: -10px">
       <li>
         Leader, Yearbook. (2019 - 2020, 2020 - 2021)
       </li>
@@ -196,7 +188,7 @@
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Programming Experience:</p>
-    <ul style="font-size:12px;">
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         Unity Game Engine: 2 years
       </li>
@@ -214,28 +206,28 @@
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Sample Work</p>
-    <ul style="font-size:12px;">
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         <a href="https://scratch.mit.edu/projects/164942695/" target="_blank">Freshmen Scratch Project - Galaga Undertale Ver.</a> - Scratch - A remix of Galaga using Undertale characters.
       </li>
       <li>
-        <a href="https://scratch.mit.edu/projects/245939556/" target="_blank">10 Minute Scratch Project - Zombies.</a>A 10 minute game made in Scratch.
+        <a href="https://scratch.mit.edu/projects/245939556/" target="_blank">10 Minute Scratch Project - Zombies.</a> - A 10 minute game made in Scratch.
       </li>
       <li>
-        <a href="https://scratch.mit.edu/projects/247608444/" target="_blank">10 Minute Scratch Project - 3 Lane Dodger.</a>A 10 minute game made in Scratch.
+        <a href="https://scratch.mit.edu/projects/247608444/" target="_blank">10 Minute Scratch Project - 3 Lane Dodger.</a> - A 10 minute game made in Scratch.
       </li>
       <li>
-        <a href="https://github.com/NoHaxJustMino/NoHaxJustMino.github.io/blob/Projects/Projects/CFPredV1.py" target="_blank">Coin Flip Prediction Version 1</a>This is a simple python script that runs to predict a coinflip outcome. The prediction and the coinflip itself are both random and this was set up to be used as a standard.
+        <a href="https://github.com/NoHaxJustMino/NoHaxJustMino.github.io/blob/Projects/Projects/CFPredV1.py" target="_blank">Coin Flip Prediction Version 1</a> - This is a simple python script that runs to predict a coinflip outcome. The prediction and the coinflip itself are both random and this was set up to be used as a standard.
       </li>
       <li>
-        <a href="https://github.com/NoHaxJustMino/NoHaxJustMino.github.io/blob/Projects/Projects/CFPredV2.py" target="_blank">Coin Flip Prediction Version 2</a>This is the 2nd Version of the Coinflip Prediction. This version uses a counting system where it would predict either side while having a chance more on a certain side.
+        <a href="https://github.com/NoHaxJustMino/NoHaxJustMino.github.io/blob/Projects/Projects/CFPredV2.py" target="_blank">Coin Flip Prediction Version 2</a> - This is the 2nd Version of the Coinflip Prediction. This version uses a counting system where it would predict either side while having a chance more on a certain side.
       </li>
       <li>
-        <a href="https://github.com/NoHaxJustMino/NoHaxJustMino.github.io/blob/Projects/Projects/CFPredV3.py" target="_blank">Coin Flip Prediction Version 3</a>This is the 3rd Version of the Coinflip Prediction. This version uses keeps count of heads and tails. It will check the ratio of heads/tails and if it goes over a certain number it will predict either side.
+        <a href="https://github.com/NoHaxJustMino/NoHaxJustMino.github.io/blob/Projects/Projects/CFPredV3.py" target="_blank">Coin Flip Prediction Version 3</a> - This is the 3rd Version of the Coinflip Prediction. This version uses keeps count of heads and tails. It will check the ratio of heads/tails and if it goes over a certain number it will predict either side.
       </li>
     </ul>
     <p style="font-size:14px;color:blue">Other:</p>
-    <ul style="font-size:12px">
+    <ul style="font-size:12px; margin-top: -10px">
       <li>
         Have been using a computer since six years old
       </li>
