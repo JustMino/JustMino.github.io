@@ -4,13 +4,13 @@
 }
 
 .header a {
-  float: right;
+  float: center;
   color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 10px;
   border-radius: 4px;
 }
 
@@ -24,7 +24,7 @@
   color: white;
 }
 
-.header-left {
+.header-right {
   float: right;
 }
 
@@ -40,7 +40,22 @@
   }
 }
 
-.header a.logo {
+.header a.name {
   font-size: 30px;
   font-weight: bold;
+  float: center;
+}
+
+#grad1 {
+  background-color: lightgrey;
+  background: linear-gradient(to bottom right, lightgrey, grey);
+}
+
+p.one {
+  border-style: outset;
+  border-width: thick;
+  border-color: #4dd9e3;
+  padding: 1em;
+  margin: auto;
+  width: 250px;
 }
