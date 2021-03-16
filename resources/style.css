@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
-@import url(three-dots.css);
 
 body {
   background: lightgrey;
@@ -13,7 +12,6 @@ a {
   width: 220px;
   height: 70px;
   z-index: 1;
-  transition: all 3s ease-in-out infinite;
 }
 a:after {
   content: "";
@@ -91,5 +89,3 @@ a.p {
   font-family: "Squada One", cursive;
   font-size: 28px;
 }
-
-/* motion */
