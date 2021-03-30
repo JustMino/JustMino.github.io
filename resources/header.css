@@ -53,7 +53,7 @@
 #grad1 {
   background-color: lightgrey;
   background: linear-gradient(to bottom right, lightgrey, grey);
-  background-size: auto 1000px;
+  background-size: auto auto;
 }
 
 p.one {
