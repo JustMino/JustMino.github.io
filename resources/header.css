@@ -15,6 +15,7 @@
   font-size: 18px;
   line-height: 10px;
   border-radius: 4px;
+  max-height: 50px;
 }
 
 .header a:hover {
@@ -56,6 +57,12 @@
   background-size: auto auto;
 }
 
+#grad2 {
+  background-color: lightgrey;
+  background: linear-gradient(to bottom right, lightgrey, grey);
+  background-size: auto 1000px;
+}
+
 p.one {
   border-style: outset;
   border-width: thick;
@@ -63,4 +70,18 @@ p.one {
   padding: 1em;
   margin: auto;
   width: 250px;
+}
+
+.tc {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 925px;
+}
+
+.tcp {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 400px;
 }
