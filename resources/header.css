@@ -51,11 +51,16 @@
   font-family: "Squada One", cursive;
 }
 
-#grad1 {
+body {
   background-color: lightgrey;
-  background: linear-gradient(to bottom right, lightgrey, grey);
-  background-size: auto auto;
 }
+
+@media print {
+  body {
+    background-color:  white;
+  }
+}
+
 
 #grad2 {
   background-color: lightgrey;
