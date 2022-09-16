@@ -14,6 +14,12 @@ a {
   z-index: 1;
 }
 a:after {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  right: 350px;
+  bottom: 150px;
+  margin: auto;
   content: "";
   background: linear-gradient(120deg, #6559ae, #ff7159, #6559ae);
   background-size: 400% 400%;
@@ -43,8 +49,13 @@ th {
   border-spacing: 0;
 }
 
+td {
+  height: 50px;
+  width: 100px;
+}
+
 /* helpers */
-.absolute-centering, body:after, a:after {
+.absolute-centering, body:after{
   position: absolute;
   top: 0;
   left: 0;
@@ -53,30 +64,12 @@ th {
   margin: auto;
 }
 
-a.gh {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-a.r {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 600px;
-  bottom: 0;
-  margin: auto;
-}
-
-a.p {
-  position: absolute;
-  top: 0;
-  left: 600px;
-  right: 0;
-  bottom: 0;
+a.link {
+  position: relative;
+  top: 15px;
+  left: 35px;
+  right: 35px;
+  bottom: 15px;
   margin: auto;
 }
 
