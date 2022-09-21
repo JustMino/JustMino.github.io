@@ -19,7 +19,6 @@ a:after {
   left: 350px;
   right: 350px;
   bottom: 150px;
-  margin: auto;
   content: "";
   border: 10px;
   background: linear-gradient(120deg, #6559ae, #ff7159, #6559ae);
@@ -57,8 +56,11 @@ td {
   height: 50px;
   width: 100px;
   text-align: center;
-  border: 10px;
   border-spacing: 0;
+}
+
+td.txt {
+  border: 5px solid white;
 }
 
 /* helpers */
@@ -68,7 +70,6 @@ td {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto;
 }
 
 a.link {
