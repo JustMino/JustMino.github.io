@@ -67,7 +67,7 @@ body {
 #grad2 {
   background-color: lightgrey;
   background: linear-gradient(to bottom right, lightgrey, grey);
-  background-size: auto 1000px;
+  background-size: contain;
 }
 
 p.one {
